@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mateus.multiplestables">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Activitys.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activitys.RegistrarUsuarioActivity" />
+        <activity android:name=".Activitys.RegistrarAnunciosActivity" />
+        <activity android:name=".Activitys.LoginActivity" />
+        <activity android:name=".Activitys.EditarUsuario.PerfilUsuarioActivity" />
+        <activity android:name=".Activitys.EditarAnuncio.ListaDeAnunciosActivity" />
+        <activity android:name=".Activitys.EditarUsuario.EditarUsuarioMenuActivity" />
+        <activity android:name=".Activitys.EditarUsuario.EditarNomeActivity" />
+        <activity android:name=".Activitys.EditarUsuario.EditarSenhaActivity" />
+        <activity android:name=".Activitys.EditarDesativarUsuarioAcitivity" />
+        <activity android:name=".Activitys.EditarUsuario.EditarUsuarioMenuActivity" />
+        <activity android:name=".Activitys.EditarUsuario.EditarNomeActivity" />
+        <activity android:name=".Activitys.EditarUsuario.EditarSenhaActivity" />
+        <activity android:name=".Activitys.EditarUsuario.EditarDesativarContaActivity" />
+        <activity android:name=".Activitys.TelaDeAnunciosActivity" />
+        <activity android:name=".Activitys.ItemClicadoActivity" />
+        <activity
+            android:name=".Menu_deslizante"
+            android:label="@string/title_activity_menu_deslizante"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Activitys.CarrinhoActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Activitys.EditarAnuncio.EditarAnuncioMenuActivity" />
+        <activity android:name=".Activitys.EditarAnuncio.MenuEditarAnuncio" />
+    </application>
+
+</manifest>
